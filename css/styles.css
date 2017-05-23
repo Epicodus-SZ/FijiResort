@@ -15,6 +15,24 @@ p {
   color: gray;
 }
 
+ol {
+  font-size: 40px;
+}
 body {
   background-color: skyblue;
+  margin: auto;
+}
+
+.centered {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+#fijiborderSML {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(../img/border.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(../img/border.png) 30 round;
 }
